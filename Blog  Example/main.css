@@ -1,0 +1,62 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background: white;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-image: url(ocean.jpeg); */
+  background-image: url(tradiotonal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  margin: 2rem 2rem;
+}
+blockquote {
+  color: #1c1c1c;
+  font-size: 35px;
+  font-style: italic !important;
+  font-weight: 700;
+}
+address {
+  color: black;
+  font-size: 25px;
+}
+
+.email-section {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  margin: 2rem 2rem;
+}
+
+.email-section > button {
+  /* background-color: #48426d; */
+  background-color: #e56a2d;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+
+.email-section > input {
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px 0px 0px 10px;
+  border: 2px solid #e56a2d;
+}
