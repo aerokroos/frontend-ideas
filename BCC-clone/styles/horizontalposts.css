@@ -1,0 +1,19 @@
+.horizontal-posts {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 8.5em;
+}
+.horizontal-post {
+    display: flex;
+    width: 200px;
+    word-wrap: break-word;
+}
+.horizontal-post img {
+    width: 200px;
+    object-fit: cover;
+    align-self: center;
+}
+.horizontal-post > .post-info  img {
+    width: 11px;
+    height: 11px;
+}

@@ -1,0 +1,118 @@
+/* GLOBAL */
+header {
+    display: flex;
+    flex-direction: column;
+}
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.categories a,li {
+    text-decoration: none;
+    list-style: none;
+    align-self: center;
+}
+/* Section 1 */
+.section1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 0em 8em;
+}
+.tech-categorie {
+    border-right: 2px solid #ddd7d2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-self: center;
+
+}
+.tech-categorie:hover{
+    border-bottom: 2px solid black;
+}
+.tech-categorie a {
+    color: #2c313c;
+}
+.logo {
+    padding: .3em .3em;
+    margin-top: .3em;
+    cursor: pointer;
+}
+.link {
+    padding: .3em .3em;
+}
+.link > a {
+    padding: .3em .3em;
+}
+.link > img {
+    padding: .3em .3em;
+}
+.link > .ad {
+    width: 7px;
+    height: 7px;
+    padding: .5em .5em ;
+    margin: 0em .5em;
+}
+.signin {
+    width: 150px;
+    height: auto;
+}
+.search-section {
+    display: flex;
+    flex-direction: row;
+}
+div > .search {
+    margin: .5em 0em;
+    margin-left: .5em;
+}
+.search {
+    width: 150px;
+    height: auto;
+    background-color: #e4e4e4;
+    color: #898d95;
+    border: none;
+    padding: .2em .2em;
+    border-radius: 0px 0px 0px 2px;
+}
+div > .btn-search {
+    margin: .5em 0em;
+    padding: .3em;
+}
+.btn-search {
+    height: auto;
+    background-color: #e4e4e4;
+    color: #898d95;
+    border: none;
+    padding: .2em .2em;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 2px;
+}
+/* Section 2 */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #bc1c1c;
+    padding: 0em 8em;
+}
+.news-div {
+    padding: 0em .5em;
+    color: #ffffff;
+}
+
+.general-categories {
+    padding-bottom: .5em;
+    cursor: pointer;
+}
+.general-categories a {
+    font-size: 12px;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 0em .8em;
+}
+.wad {
+    width: 10px;
+    height: 10px;
+    padding: .1em .1em ;
+    margin: 0em .6em; 
+}

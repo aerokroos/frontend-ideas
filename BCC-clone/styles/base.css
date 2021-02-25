@@ -1,0 +1,25 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.tech-title {
+    color: #2c313c;
+    text-decoration-color: #bc1c1c;
+    border-bottom: 2px solid #bc1c1c;
+    padding: 0em 8em;
+}
+.main-post {
+    display: flex;
+    flex-direction: column;
+    padding: 4em 8.5em;
+}
+.main-title {
+    font-size: 18px;
+    color: #4d4a58;
+    margin-top: .5em;
+    margin-left: 7.5em;
+    text-decoration: underline;
+    text-decoration-color: #bc1c1c;
+    text-decoration-thickness: 2.5px;
+}
